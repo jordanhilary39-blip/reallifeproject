@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact | SMARTIES LEARNING CENTER</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"><link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="contact.css">
+ <link rel="icon" href="IMAGES/Smarties%20Learning%20Center%20Emblem.png">
+</head>
+<body>
+	<nav>
+		<a class="logo-container" href="index.html" aria-label="SMARTIES LEARNING CENTER home"><div class="logo"><img src="IMAGES/Smarties%20Learning%20Center%20Emblem.png" alt="SMARTIES LEARNING CENTER logo"></div><div class="logo-text"><p>SMARTIES LEARNING CENTER</p><span>Learn. Grow. Succeed.</span></div></a>
+		<button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+		<div class="links"><a href="index.html">Home</a><a href="about.html">About</a><a href="academics.html">Academics</a><a href="admissions.html">Admissions</a><a href="gallery.html">Gallery</a><a class="active" href="contact.html">Contact</a></div>
+	</nav>
+	<div class="marquee-strip" aria-label="School announcements">
+		<div class="marquee-track">
+			<span>Admissions open for 2026 intake</span>
+			<span>School tours every Tuesday</span>
+			<span>Early years classes now enrolling</span>
+			<span>Admissions open for 2026 intake</span>
+			<span>School tours every Tuesday</span>
+			<span>Early years classes now enrolling</span>
+		</div>
+	</div>
+	<header class="page-hero gallery-hero"><div class="hero-inner"><p class="eyebrow">We would love to hear from you</p><h1>Contact us</h1><p>Questions about admissions, school life, or a visit? Our team is ready to help.</p></div></header>
+	<main class="contact-page" style="padding: 65px clamp(20px, 8vw, 120px);">
+		<div class="section-heading"><p class="eyebrow">Start a conversation</p><h2>Come and see what makes SMARTIES LEARNING CENTER special.</h2><p>Reach out to arrange a school visit or learn more about joining our community.</p></div>
+		<div class="programs" style="padding-top: 0;">
+			<div class="program"><i class="fa-solid fa-location-dot"></i><h3>Visit us</h3><p>12 Victoria Lane<br>Greenfields, Kampala</p></div>
+			<div class="program"><i class="fa-solid fa-phone"></i><h3>Call the office</h3><p><a href="tel:+256700123456">+256 700 123 456</a><br>Monday to Friday, 8:00 am - 4:00 pm</p></div>
+			<div class="program"><i class="fa-solid fa-envelope"></i><h3>Send an email</h3><p><a href="mailto:hello@smartieslearningcenter.example">hello@smartieslearningcenter.example</a><br>We reply within one school day.</p></div>
+		</div>
+		<div class="contact-map" aria-label="Location map">
+			<iframe
+				title="SMARTIES LEARNING CENTER location"
+				src="https://www.google.com/maps?q=12+Victoria+Lane,+Greenfields,+Kampala&output=embed"
+				loading="lazy"
+				referencingpolicy="no-referrer-when-downgrade"
+				allowfullscreen>
+			</iframe>
+		</div>
+		<form id="enquiry-form" class="contact-form" action="#" method="post">
+			<h2>Send us a message</h2>
+			<div class="form-row">
+				<div><label for="name">Full name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
+				<div><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+			</div>
+			<div class="form-row">
+				<div><label for="phone">Phone number</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+				<div><label for="visit-date">Preferred visit date</label><input id="visit-date" name="visit-date" type="date"></div>
+			</div>
+			<label for="topic">What can we help with?</label>
+			<select id="topic" name="topic" required><option value="">Choose a topic</option><option>Admissions</option><option>School visit</option><option>General enquiry</option></select>
+			<label for="message">Message</label><textarea id="message" name="message" rows="5" required></textarea>
+			<button class="btn" type="submit">Send message <i class="fa-solid fa-paper-plane"></i></button>
+			<div class="form-success" hidden>Thank you. Your message has been received and our admissions team will contact you shortly.</div>
+		</form>
+	</main>
+	<footer class="site-footer">
+		<div class="footer-main">
+			<div class="footer-brand">
+				<a class="footer-logo" href="index.html"><img src="IMAGES/Smarties%20Learning%20Center%20Emblem.png" alt="SMARTIES LEARNING CENTER"></a>
+				<p class="footer-tagline">Learn. Grow. Succeed.</p>
+				<div class="social-links" aria-label="Social media links">
+					<a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+					<a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+					<a href="https://x.com" target="_blank" rel="noopener" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+					<a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+				</div>
+				<p>Helping every learner grow in knowledge, confidence, and character.</p>
+			</div>
+			<div class="footer-column">
+				<h2>Quick links</h2>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="academics.html">Academics</a></li>
+					<li><a href="admissions.html">Admissions</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+				</ul>
+			</div>
+			<div class="footer-column">
+				<h2>Contact</h2>
+				<address>
+					<p>12 Victoria Lane<br>Greenfields, Kampala</p>
+					<a href="tel:+256700123456">+256 700 123 456</a>
+					<a href="mailto:hello@smartieslearningcenter.example">hello@smartieslearningcenter.example</a>
+				</address>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<p>&copy; 2026 SMARTIES LEARNING CENTER. All rights reserved.</p>
+			<a href="contact.html">Contact the school</a>
+		</div>
+	</footer>
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			const menuToggle = document.querySelector('.menu-toggle');
+			const links = document.querySelector('.links');
+			if (menuToggle && links) {
+				menuToggle.addEventListener('click', function () {
+					const isOpen = links.classList.toggle('open');
+					menuToggle.setAttribute('aria-expanded', String(isOpen));
+				});
+
+				document.querySelectorAll('.links a').forEach(function (link) {
+					link.addEventListener('click', function () {
+						links.classList.remove('open');
+						menuToggle.setAttribute('aria-expanded', 'false');
+					});
+				});
+			}
+			const form = document.getElementById('enquiry-form');
+			if (form) {
+				form.addEventListener('submit', function (event) {
+					event.preventDefault();
+					const success = form.querySelector('.form-success');
+					if (success) {
+						success.hidden = false;
+					}
+					form.reset();
+				});
+			}
+		});
+	</script>
+</body>
+</html>

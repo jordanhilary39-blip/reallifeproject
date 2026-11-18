@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | SMARTIES LEARNING CENTER</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+     <link rel="icon" href="IMAGES/Smarties%20Learning%20Center%20Emblem.png">   
+</head>
+<body>
+   <nav>
+        <div class="logo-container">
+            <div class="logo">
+                <img src="IMAGES/Smarties%20Learning%20Center%20Emblem.png" alt="Logo">
+            </div>
+            <div class="logo-text">
+                <p>SMARTIES LEARNING CENTER</p>
+                <span>Learn. Grow. Succeed.</span>
+            </div>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a class="active" href="about.html">About</a>
+            <a href="academics.html">Academics</a>
+            <a href="admissions.html">Admissions</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+            <div class="marquee-strip" aria-label="School announcements">
+                <div class="marquee-track">
+                    <span>Admissions open for 2026 intake</span>
+                    <span>School tours every Tuesday</span>
+                    <span>Early years classes now enrolling</span>
+                    <span>Admissions open for 2026 intake</span>
+                    <span>School tours every Tuesday</span>
+                    <span>Early years classes now enrolling</span>
+                </div>
+            </div>
+            <section class="hero-about">
+            
+                    <div class="hero-inner">
+                        <h1>About Us</h1>
+                        <p>Naturing Minds since 2010</p>
+                    </div>
+                </section>
+            <main>
+                <div class="content">
+                <h2>Our Story</h2>
+                <p>Welcome to SMARTIES LEARNING CENTER, where we have been nurturing young minds since 2010. Our dedicated team of educators is committed to providing a high-quality education that fosters academic excellence and personal growth.
+                    SMARTIES LEARNING CENTER is more than just a place of learning; it is a community where students are encouraged to explore their interests, develop critical thinking skills, and build a strong foundation for lifelong learning.
+                    It is our mission to create a safe and inclusive environment where every child can thrive academically, socially, and emotionally.
+                    Whether it's through our innovative curriculum, extracurricular activities, or community engagement initiatives, we strive to empower our students to become confident, compassionate, and responsible individuals.</p>
+                    <a href="gallery.html" class="btn">Learn More</a>
+                    </div>
+                    <div class="content-image">
+                        <img src="IMAGES/pexels-justin-muhinda-1340590076-25457343.jpg" alt="School Image">
+                    </div>
+            </main>
+
+            <section class="info-panel">
+                <div class="section-heading">
+                    <p class="eyebrow">Our values</p>
+                    <h2>A school built on care and excellence</h2>
+                </div>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>Care</h3>
+                        <p>We create a warm, welcoming environment where every child feels safe, valued, and inspired to grow.</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Excellence</h3>
+                        <p>We encourage curiosity, hard work, and purposeful learning in every classroom and activity.</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Community</h3>
+                        <p>Families, teachers, and learners work together to build a stronger school experience for all.</p>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="site-footer">
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <a class="footer-logo" href="index.html"><img src="IMAGES/Smarties%20Learning%20Center%20Emblem.png" alt="SMARTIES LEARNING CENTER"></a>
+                        <p class="footer-tagline">Learn. Grow. Succeed.</p>
+                        <div class="social-links" aria-label="Social media links">
+                            <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://x.com" target="_blank" rel="noopener" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                        <p>Helping every learner grow in knowledge, confidence, and character.</p>
+                    </div>
+                    <div class="footer-column">
+                        <h2>Quick links</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="academics.html">Academics</a></li>
+                            <li><a href="admissions.html">Admissions</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h2>Contact</h2>
+                        <address>
+                            <p>12 Victoria Lane<br>Greenfields, Kampala</p>
+                            <a href="tel:+256700123456">+256 700 123 456</a>
+                            <a href="mailto:hello@smartieslearningcenter.example">hello@smartieslearningcenter.example</a>
+                        </address>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2026 SMARTIES LEARNING CENTER. All rights reserved.</p>
+                    <a href="contact.html">Contact the school</a>
+                </div>
+            </footer>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const menuToggle = document.querySelector('.menu-toggle');
+                    const links = document.querySelector('.links');
+                    if (menuToggle && links) {
+                        menuToggle.addEventListener('click', function () {
+                            const isOpen = links.classList.toggle('open');
+                            menuToggle.setAttribute('aria-expanded', String(isOpen));
+                        });
+
+                        document.querySelectorAll('.links a').forEach(function (link) {
+                            link.addEventListener('click', function () {
+                                links.classList.remove('open');
+                                menuToggle.setAttribute('aria-expanded', 'false');
+                            });
+                        });
+                    }
+                });
+            </script>
+                
+</body>
+</html>

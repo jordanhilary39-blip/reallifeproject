@@ -1,0 +1,66 @@
+.admissions-hero {
+    background-image: url("IMAGES/pexels-elvis-mkera-2581740-14909652.jpg");
+}
+
+article {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 55px clamp(20px, 8vw, 120px);
+}
+
+.admissions-info {
+    background: linear-gradient(180deg, #ffffff 0%, #f7fbfd 100%);
+    padding: 26px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+}
+
+.admissions-info h2 {
+    margin-top: 0;
+}
+
+.admissions-info ul {
+    margin: 18px 0 0;
+    padding-left: 18px;
+}
+
+.box-card {
+    margin-top: 28px;
+    padding: 26px;
+    border: 1px solid rgba(244, 185, 66, 0.45);
+    border-radius: 8px;
+    background: linear-gradient(135deg, #fff9ee 0%, #eef8fc 100%);
+    box-shadow: 0 10px 24px rgba(16, 42, 67, 0.06);
+}
+
+.age-groups {
+    padding: 26px;
+    border-left: 4px solid var(--gold);
+    background: var(--sky);
+    border-radius: 8px;
+}
+
+.age-groups ul {
+    margin: 0;
+    padding-left: 18px;
+    color: var(--navy);
+    font-weight: 700;
+}
+
+.step-list {
+    margin: 24px 0 0;
+    padding-left: 20px;
+}
+
+@media (max-width: 760px) {
+    article {
+        display: block;
+    }
+
+    .admissions-info {
+        margin-bottom: 25px;
+    }
+}

@@ -1,0 +1,101 @@
+.gallery-hero {
+    background-image: url("IMAGES/pexels-kwakugriffn-14554004.jpg");
+}
+
+.contact-page {
+    padding: 65px clamp(20px, 8vw, 120px);
+}
+
+.programs {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    padding: 20px 0 0;
+}
+
+.program {
+    padding: 26px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: white;
+}
+
+.contact-map {
+    margin: 28px 0 0;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 10px 30px rgba(16, 39, 60, 0.08);
+}
+
+.contact-map iframe {
+    display: block;
+    width: 100%;
+    min-height: 420px;
+    border: 0;
+}
+
+.contact-form {
+    max-width: 760px;
+    padding: 30px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: white;
+}
+
+.contact-form h2 {
+    margin-top: 0;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+
+.contact-form label {
+    display: block;
+    margin: 16px 0 6px;
+    color: var(--navy);
+    font-weight: 700;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 11px 12px;
+    border: 1px solid #b9cbd2;
+    border-radius: 4px;
+    color: var(--ink);
+    background: #fbfdfd;
+    font: inherit;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    outline: 2px solid var(--gold);
+    border-color: var(--blue);
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.form-success {
+    margin-top: 16px;
+    padding: 12px 14px;
+    border-radius: 8px;
+    color: #0f4a38;
+    background: #e8f8ef;
+    border: 1px solid #bfead0;
+}
+
+@media (max-width: 760px) {
+    .programs,
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+}
